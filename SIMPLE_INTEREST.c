@@ -1,8 +1,10 @@
-#include<stdio.h>
-int main()
-{
-    int p,r,t,si;
-    scanf("%d%d%d",&p,&r,&t);
-    si=p*r*t/100;
-    printf("%d",si);
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int P,T,R,SI;
+    cin>>P>>T>>R;
+    SI=(P*R*T)/100;
+    cout<<SI;
+    return 0;
 }
